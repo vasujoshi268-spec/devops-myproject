@@ -14,7 +14,7 @@ def get_db_connection():
 
 @app.route('/')
 def home():
-    return "Flask + PostgreSQL Connected 🚀"
+    return "CI/CD Working 🔥"
 
 @app.route('/data')
 def data():
